@@ -8,7 +8,8 @@ import numpy as np
 import joblib
 import datetime
 import json
-
+from sklearn.ensemble import RandomForestRegressor
+from xgboost import XGBRegressor
 from streamlit_lottie import st_lottie
 from streamlit_option_menu import option_menu
 
